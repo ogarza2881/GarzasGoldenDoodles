@@ -154,7 +154,7 @@ checkFlexGap();
 }
 */
 function sendMail() {
-  const params = {
+  const templateParams = {
     name: document.getElementById('full-name').value,
     email: document.getElementById('email').value,
     message: document.getElementById('message').value,
@@ -163,11 +163,16 @@ function sendMail() {
   const serviceID = 'service_9srs734';
   const templateID = 'template_cvq9vxk';
 
-  emailjs.send(serviceID, templateID, params).then((res) => {
-    document.getElementById('full-name').value = '';
-    document.getElementById('email').value = '';
-    document.getElementById('message').value = '';
-    console.log(res);
-    alert('We have received your email and will be contacting you shortly!').catch((err) => console.log(err));
-  });
+  emailjs.send(serviceID, templateID, templateParams).then(
+    (res) => {
+      document.getElementById('full-name').value = '';
+      document.getElementById('email').value = '';
+      document.getElementById('message').value = '';
+      console.log('Success', res.status, res.text);
+      alert('We have received your email and will be contacting you shortly!');
+    },
+    function (error) {
+      console.log('Failed....', error);
+    }
+  );
 }
