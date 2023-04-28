@@ -154,6 +154,7 @@ checkFlexGap();
 }
 */
 function sendMail() {
+  e.preventDefault();
   const templateParams = {
     name: document.getElementById('full-name').value,
     email: document.getElementById('email').value,
