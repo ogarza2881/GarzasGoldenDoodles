@@ -153,8 +153,8 @@ checkFlexGap();
   }
 }
 */
-function sendMail() {
-  e.preventDefault();
+function sendMail(event) {
+  event.preventDefault();
   const templateParams = {
     name: document.getElementById('full-name').value,
     email: document.getElementById('email').value,
