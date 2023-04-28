@@ -72,7 +72,7 @@
   color: #333;
 }
 
-.icon-mobile-nav[name='close-outline'] {
+.icon-mobile-nav[name="close-outline"] {
   display: none;
 }
 
@@ -120,7 +120,7 @@
 }
 
 .hero-img {
-  width: 125%;
+  width: 100%;
 }
 
 .delivered-meals {
@@ -190,7 +190,7 @@
 /**************************/
 
 .section-how {
-  padding: 9.6rem 0;
+  padding: 12rem 0;
 }
 
 .step-number {
@@ -215,7 +215,7 @@
 
 .step-img-box::before,
 .step-img-box::after {
-  content: '';
+  content: "";
   display: block;
   border-radius: 50%;
   position: absolute;
@@ -422,7 +422,7 @@
 }
 
 .pricing-plan--complete::after {
-  content: 'True Mini';
+  content: "True Mini";
   position: absolute;
   top: 6%;
   right: -18%;
@@ -544,7 +544,12 @@
 }
 
 .cta-img-box {
-  background-image: linear-gradient(to right bottom, rgba(235, 151, 78, 0.35), rgba(230, 125, 34, 0.35)), url('../img/contact.jpeg');
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(235, 151, 78, 0.35),
+      rgba(230, 125, 34, 0.35)
+    ),
+    url("../img/contact.jpeg");
   background-size: cover;
   background-position: center;
 }
