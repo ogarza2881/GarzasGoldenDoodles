@@ -15,29 +15,22 @@
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/queries.css" />
 
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule=""
-      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
-    ></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
 
-    <script
-      defer
-      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
-    ></script>
-    <script defer src="js/script.js"></script>
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init('rAz4VlLDhYpFrLiZN');
+      })();
+    </script>
 
     <title>Garza's Golden Gang</title>
   </head>
@@ -48,10 +41,11 @@
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li><a class="main-nav-link" href="#how">About Us</a></li>
-          <li><a class="main-nav-link" href="#pricing">Adoption Fees</a></li>
+
           <li>
             <a class="main-nav-link" href="#puppies">Available Puppies</a>
           </li>
+          <li><a class="main-nav-link" href="#pricing">Adoption Fees</a></li>
           <li><a class="main-nav-link" href="#gallery">Photo Gallery</a></li>
           <li><a class="main-nav-link nav-cta" href="#cta">Contact Us!</a></li>
         </ul>
@@ -69,8 +63,7 @@
           <div class="hero-text-box">
             <h1 class="heading-primary">Garza's Golden Gang</h1>
             <p class="hero-description">
-              We pride ourselves in helping our mother dogs raise their puppies,
-              ensuring they each receive direct care from all members of our
+              We pride ourselves in helping our mother dogs raise their puppies, ensuring they each receive direct care from all members of our
               family.
             </p>
             <a href="#cta" class="btn btn--full margin-right-sm">Contact Us!</a>
@@ -93,11 +86,7 @@
           </div>
           <div class="hero-img-box">
             <picture>
-              <img
-                src="img/hero.jpeg"
-                class="hero-img"
-                alt="Garza's Goldendoodle Dogs, Chewy, Hanna, Lucy."
-              />
+              <img src="img/hero.jpeg" class="hero-img" alt="Garza's Goldendoodle Dogs, Chewy, Hanna, Lucy." />
             </picture>
           </div>
         </div>
@@ -105,56 +94,45 @@
       <section class="section-how" id="how">
         <div class="container">
           <span class="subheading">Who We Are</span>
-          <h2 class="heading-secondary">
-            A Family dedicated to hand raising Goldendoodles
-          </h2>
+          <h2 class="heading-secondary">A Family dedicated to hand raising Goldendoodles</h2>
+          <p class="step-description">
+            We decided to help families find their new Goldendoodle puppies because we love the breed. We are dedicated to help them develope into the
+            smart, loyal, kind, and gentle dogs we know they are.
+          </p>
         </div>
 
         <div class="container grid grid--2-cols grid--center-v">
           <div class="step-text-box">
-            <h3 class="heading-tertiary">Raised by all family members</h3>
+            <h3 class="heading-tertiary">Chewie</h3>
             <p class="step-description">
-              Our puppies are raised by their parents as well as each member of
-              our family. They spend time playing with our children and spend
-              time with the grown up dogs to learn important social skills.
+              Chewie is the father to all of our puppies. His father is a champion mini poodle and chewy's puppies tend to have a thicker curlier
+              coat. They also inherit a lot of his curls and intelligence.
             </p>
           </div>
 
           <div class="step-img-box">
-            <img
-              src="img/puppies/chewy.jpg"
-              class="step-img"
-              alt="South Texas Goldendoodle with child"
-            />
+            <img src="img/puppies/chewy.jpg" class="step-img" alt="South Texas Goldendoodle with child" />
           </div>
 
           <div class="step-img-box">
-            <img
-              src="img/puppies/lucy.jpeg"
-              class="step-img"
-              alt="Male Goldendoodle with child in the Rio Grande Valley"
-            />
+            <img src="img/puppies/lucy.jpg" class="step-img" alt="Male Goldendoodle with child in the Rio Grande Valley" />
           </div>
           <div class="step-text-box">
             <p class="step-number"></p>
-            <h3 class="heading-tertiary">We love our dogs</h3>
+            <h3 class="heading-tertiary">Lucy</h3>
             <p class="step-description">
-              We decided to help families find their new Goldendoodle puppies
-              because we love the breed. We are dedicated to help them develope
-              into the smart, loyal, kind, and gentle dogs we know they are.
+              Lucy is the smallest of our females. She is just under 30lbs, she has a curly red coat with white markings. She is sweet, very smart,
+              and loves to be held. Her puppies definitely are some of the smaller Goldendoodles you'll ever meet.
             </p>
           </div>
 
           <div class="step-text-box">
             <p class="step-number"></p>
-            <h3 class="heading-tertiary">Dedication to the breed</h3>
+            <h3 class="heading-tertiary">Hanna</h3>
             <p class="step-description">
-              We have had several different breeds in our household and have
-              loved all of our pets. However, there really is something special
-              about a Goldendoodle that has really captured our hearts. Whether
-              it is their intelligence, their kindness, or their unending
-              loytalty, this breed is definitly a family dog. The low shedding
-              doesn't hurt either 😉.
+              Hanna is a mini/medium sized Goldendoodle and her coat is definitely a bit more on the retriever side. She is the most loving, patient,
+              and gentle dog I have ever met. All of our dogs are wonderful around small children but Hanna's personality is definitely off the
+              charts.
             </p>
           </div>
           <div class="step-img-box">
@@ -169,85 +147,61 @@
       </section>
       <section class="section" id="puppies">
         <div class="container">
-          <span class="subheading">Who We Are</span>
-          <h2 class="heading-secondary">
-            A Family dedicated to hand raising Goldendoodles
-          </h2>
+          <span class="subheading">Available Puppies!</span>
+          <h2 class="heading-secondary">Our most current group of available puppies</h2>
         </div>
 
         <div class="gallery">
           <figure class="gallery-item">
-            <img
-              src="img/gallery/gallery-1.jpg"
-              alt="Photo of a goldendoodle puppy"
-            />
+            <img src="img/gallery/gallery-1.jpg" alt="Photo of a goldendoodle puppy" />
             <!-- <figcaption>Caption</figcaption> -->
           </figure>
           <figure class="gallery-item">
-            <img
-              src="img/gallery/gallery-2.jpg"
-              alt="Photo of a goldendoodle puppy"
-            />
+            <img src="img/gallery/gallery-2.jpg" alt="Photo of a goldendoodle puppy" />
           </figure>
           <figure class="gallery-item">
-            <img
-              src="img/gallery/gallery-3.jpg"
-              alt="Photo of a goldendoodle puppy"
-            />
+            <img src="img/gallery/gallery-3.jpg" alt="Photo of a goldendoodle puppy" />
           </figure>
           <figure class="gallery-item">
-            <img
-              src="img/gallery/gallery-4.jpg"
-              alt="Photo of a goldendoodle puppy"
-            />
+            <img src="img/gallery/gallery-4.jpg" alt="Photo of a goldendoodle puppy" />
           </figure>
           <figure class="gallery-item">
-            <img
-              src="img/gallery/gallery-5.jpg"
-              alt="Photo of a goldendoodle puppy"
-            />
+            <img src="img/gallery/gallery-5.jpg" alt="Photo of a goldendoodle puppy" />
           </figure>
           <figure class="gallery-item">
-            <img
-              src="img/gallery/gallery-6.jpg"
-              alt="Photo of a goldendoodle puppy"
-            />
+            <img src="img/gallery/gallery-6.jpg" alt="Photo of a goldendoodle puppy" />
           </figure>
           <figure class="gallery-item">
-            <img
-              src="img/gallery/gallery-7.jpg"
-              alt="Photo of a goldendoodle puppy"
-            />
+            <img src="img/gallery/gallery-7.jpg" alt="Photo of a goldendoodle puppy" />
           </figure>
           <figure class="gallery-item">
-            <img
-              src="img/gallery/gallery-8.jpg"
-              alt="Photo of a goldendoodle puppy"
-            />
+            <img src="img/gallery/gallery-8.jpg" alt="Photo of a goldendoodle puppy" />
           </figure>
           <figure class="gallery-item">
-            <img
-              src="img/gallery/gallery-9.jpg"
-              alt="Photo of a goldendoodle puppy"
-            />
+            <img src="img/gallery/gallery-9.jpg" alt="Photo of a goldendoodle puppy" />
           </figure>
           <figure class="gallery-item">
-            <img
-              src="img/gallery/gallery-10.jpg"
-              alt="Photo of a goldendoodle puppy"
-            />
+            <img src="img/gallery/gallery-10.jpg" alt="Photo of a goldendoodle puppy" />
           </figure>
-          <figure class="gallery-item">
-            <img
-              src="img/gallery/gallery-11.jpg"
-              alt="Photo of a goldendoodle puppy"
-            />
+          <figure class="gallery-item gallery-item--sold">
+            <img src="img/gallery/gallery-11.jpg" alt="Photo of a goldendoodle puppy" />
+            <p class="centered-image--text">Puppy Adopted!</p>
           </figure>
-          <figure class="gallery-item">
-            <img
-              src="img/gallery/gallery-12.jpg"
-              alt="Photo of a goldendoodle puppy"
-            />
+          <figure class="gallery-item gallery-item--sold">
+            <img src="img/gallery/gallery-12.jpg" alt="Photo of a goldendoodle puppy" />
+            <p class="centered-image--text">Puppy Adopted!</p>
+          </figure>
+          <figure class="gallery-item gallery-item--sold">
+            <img src="img/gallery/gallery-13.jpg" alt="Photo of a goldendoodle puppy" />
+            <p class="centered-image--text">Puppy Adopted!</p>
+          </figure>
+          <figure class="gallery-item gallery-item--sold">
+            <img src="img/gallery/gallery-14.jpg" alt="Photo of a goldendoodle puppy" />
+            <p class="centered-image--text">Puppy Adopted!</p>
+          </figure>
+          <figure class="gallery-item gallery-item--sold">
+            <img src="img/gallery/gallery-15.jpg" alt="Photo of a goldendoodle puppy" />
+            <p class="centered-image--text">Puppy Adopted!</p>
           </figure>
         </div>
       </section>
@@ -255,9 +209,7 @@
       <section class="section-pricing" id="pricing">
         <div class="container">
           <span class="subheading">Adoption Fees</span>
-          <h2 class="heading-secondary">
-            We are with our puppies every step of the way
-          </h2>
+          <h2 class="heading-secondary">We are with our puppies every step of the way</h2>
         </div>
 
         <div class="container grid grid--2-cols margin-bottom-md">
@@ -274,15 +226,19 @@
               </li>
               <li class="list-item">
                 <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Champion bloodline</span>
+                <span><strong>Champion</strong> bloodline</span>
               </li>
               <li class="list-item">
                 <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>1st round of shots</span>
+                <span>Month of food</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Vaccinations</span>
               </li>
             </ul>
             <div class="plan-sing-up">
-              <a href="#" class="btn btn--full">Reserve a puppy</a>
+              <a href="#cta" class="btn btn--full">Reserve a puppy</a>
             </div>
           </div>
 
@@ -307,11 +263,11 @@
               </li>
               <li class="list-item">
                 <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>1st round of shots</span>
+                <span>Vaccinations</span>
               </li>
             </ul>
             <div class="plan-sing-up">
-              <a href="#" class="btn btn--full">Reserve a Puppy</a>
+              <a href="#cta" class="btn btn--full">Reserve a Puppy</a>
             </div>
           </div>
         </div>
@@ -321,48 +277,98 @@
         </div>
       </section>
 
+      <section class="section" id="gallery">
+        <div class="container">
+          <span class="subheading">Previous Puppies</span>
+          <h2 class="heading-secondary">A collection of photos from our previous customers and their puppies</h2>
+        </div>
+
+        <div class="gallery">
+          <figure class="gallery-item">
+            <img src="img/previous/previous-1.jpg" alt="Photo of a goldendoodle puppy" />
+            <!-- <figcaption>Caption</figcaption> -->
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/previous/previous-2.jpg" alt="Photo of a goldendoodle puppy" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/previous/previous-3.jpg" alt="Photo of a goldendoodle puppy" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/previous/previous-4.jpg" alt="Photo of a goldendoodle puppy" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/previous/previous-5.jpg" alt="Photo of a goldendoodle puppy" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/previous/previous-6.jpg" alt="Photo of a goldendoodle puppy" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/previous/previous-7.jpg" alt="Photo of a goldendoodle puppy" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/previous/previous-8.jpg" alt="Photo of a goldendoodle puppy" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/previous/previous-9.jpg" alt="Photo of a goldendoodle puppy" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/previous/previous-10.jpg" alt="Photo of a goldendoodle puppy" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/previous/previous-11.jpg" alt="Photo of a goldendoodle puppy" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/previous/previous-12.jpg" alt="Photo of a goldendoodle puppy" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/previous/previous-13.jpg" alt="Photo of a goldendoodle puppy" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/previous/previous-14.jpg" alt="Photo of a goldendoodle puppy" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/previous/previous-15.jpg" alt="Photo of a goldendoodle puppy" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/previous/previous-16.jpg" alt="Photo of a goldendoodle puppy" />
+          </figure>
+        </div>
+      </section>
+
       <section class="section-cta" id="cta">
+        <div class="container">
+          <span class="subheading"></span>
+          <h2 class="heading-secondary"></h2>
+        </div>
         <div class="container">
           <div class="cta">
             <div class="cta-text-box">
               <h2 class="heading-secondary">Contact us at any time!</h2>
               <p class="cta-text">
-                We are dedicated to finding you your perfect happy and healthy
-                puppy. Feel free to reach out to us with any questions you may
-                have.
+                We are dedicated to finding you your perfect happy and healthy puppy. Feel free to reach out to us with any questions you may have or
+                to reserve your new puppy!
               </p>
 
               <form class="cta-form" name="sign-up" netlify>
                 <div>
                   <label for="full-name">Full Name</label>
-                  <input
-                    id="full-name"
-                    type="text"
-                    placeholder="John Smith"
-                    name="full-name"
-                    required
-                  />
+                  <input id="full-name" type="text" placeholder="Chewie Garza" name="full-name" required />
                 </div>
 
                 <div>
-                  <label for="email">Email address</label>
-                  <input
-                    id="email"
-                    type="email"
-                    placeholder="me@example.com"
-                    name="email"
-                    required
-                  />
+                  <label for="email">Email Address</label>
+                  <input id="email" type="email" placeholder="me@example.com" name="email" required />
+                </div>
+                <div>
+                  <label for="message">Message</label>
+                  <input id="message" type="text" placeholder="Enter your message to us" name="message" required />
                 </div>
 
                 <button class="btn btn--form">Submit Email</button>
               </form>
             </div>
-            <div
-              class="cta-img-box"
-              role="img"
-              aria-label="Beautiful Goldendoodle puppy"
-            ></div>
+            <div class="cta-img-box" role="img" aria-label="Beautiful Goldendoodle puppy"></div>
           </div>
         </div>
       </section>
@@ -372,27 +378,18 @@
       <div class="container grid grid--footer">
         <div class="logo-col">
           <ul class="social-links">
-            <li>
-              <a class="footer-link" href="#"
-                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
-              ></a>
+            <!-- <li>
+              <a class="footer-link" href="#"><ion-icon class="social-icon" name="logo-instagram"></ion-icon></a>
             </li>
             <li>
-              <a class="footer-link" href="#"
-                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
-              ></a>
+              <a class="footer-link" href="#"><ion-icon class="social-icon" name="logo-facebook"></ion-icon></a>
             </li>
             <li>
-              <a class="footer-link" href="#"
-                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
-              ></a>
-            </li>
+              <a class="footer-link" href="#"><ion-icon class="social-icon" name="logo-twitter"></ion-icon></a>
+            </li> -->
           </ul>
 
-          <p class="copyright">
-            Copyright &copy; <span class="year">2023</span> by Garza's
-            Goldendoodles, Inc. All rights reserved.
-          </p>
+          <p class="copyright">Copyright &copy; <span class="year">2023</span> by Garza's Goldendoodles, Inc. All rights reserved.</p>
         </div>
 
         <div class="address-col">
@@ -400,11 +397,8 @@
           <address class="contacts">
             <p class="address"></p>
             <p>
-              <a class="footer-link" href="tel:956-929-3690">956-929-3690</a
-              ><br />
-              <a class="footer-link" href="mailto:garzasgoldedoodles@gmail.com"
-                >garzasgoldendoodles@gmail.com</a
-              >
+              <a class="footer-link" href="tel:956-929-3690">956-929-3690</a><br />
+              <a class="footer-link" href="mailto:garzasgoldedoodles@gmail.com">garzasgoldendoodles@gmail.com</a>
             </p>
           </address>
         </div>
@@ -439,5 +433,6 @@
         </nav>
       </div>
     </footer>
+    <script defer src="js/script.js"></script>
   </body>
 </html>

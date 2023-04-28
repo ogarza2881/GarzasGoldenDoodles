@@ -72,7 +72,7 @@
   color: #333;
 }
 
-.icon-mobile-nav[name="close-outline"] {
+.icon-mobile-nav[name='close-outline'] {
   display: none;
 }
 
@@ -215,7 +215,7 @@
 
 .step-img-box::before,
 .step-img-box::after {
-  content: "";
+  content: '';
   display: block;
   border-radius: 50%;
   position: absolute;
@@ -375,7 +375,7 @@
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 1.6rem;
   padding: 1.6rem;
 }
@@ -392,6 +392,21 @@
 
 .gallery-item img:hover {
   transform: scale(1.1);
+}
+
+.gallery-item--sold {
+  opacity: 60%;
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 2.4rem;
+}
+
+.centered-image--text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /**************************/
@@ -422,7 +437,7 @@
 }
 
 .pricing-plan--complete::after {
-  content: "True Mini";
+  content: 'True Mini';
   position: absolute;
   top: 6%;
   right: -18%;
@@ -544,12 +559,7 @@
 }
 
 .cta-img-box {
-  background-image: linear-gradient(
-      to right bottom,
-      rgba(235, 151, 78, 0.35),
-      rgba(230, 125, 34, 0.35)
-    ),
-    url("../img/contact.jpeg");
+  background-image: linear-gradient(to right bottom, rgba(235, 151, 78, 0.35), rgba(230, 125, 34, 0.35)), url('../img/gallery/gallery-8.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -634,7 +644,7 @@
 .footer-heading {
   font-size: 1.8rem;
   font-weight: 500;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 
 .contacts {
