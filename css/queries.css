@@ -105,7 +105,7 @@
   }
 
   .gallery {
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .cta {
@@ -205,6 +205,11 @@
   .pricing-plan {
     width: 100%;
   }
+  
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+  }
 
   .grid--footer {
     grid-template-columns: repeat(6, 1fr);
@@ -276,7 +281,7 @@
   }
 
   .gallery {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.2rem;
   }
 
